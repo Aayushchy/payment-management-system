@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/esewa
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+---
+#logging:
+#  file:
+##    name: payment.log
+#    path: logs/payment.log
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+#
+logging:
+  config: classpath:payment-log.xml
