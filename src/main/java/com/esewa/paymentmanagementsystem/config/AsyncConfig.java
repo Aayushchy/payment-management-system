@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
-
+//Configuring multiple bean executor
 @Configuration
 public class AsyncConfig {
         @Bean(name = "threadPoolTaskExecutor1")
